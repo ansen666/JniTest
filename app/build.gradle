@@ -14,7 +14,7 @@ android {
 //        ndk{
 //            moduleName "mylib"//生成的so名字,也是libname
 //            ldLibs "log", "z", "m"
-//            abiFilters "armeabi","armeabi-v7a", "x86"
+//            abiFilters "armeabi","armeabi-v7a", "x86",'arm64-v8a'
 //        }
     }
 
