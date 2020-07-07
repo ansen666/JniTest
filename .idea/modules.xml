@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JniTest.iml" filepath="$PROJECT_DIR$/JniTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JniTest-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JniTest-app.iml" group="JniTest/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/github-JniTest.iml" filepath="$PROJECT_DIR$/.idea/modules/github-JniTest.iml" group="JniTest" />
     </modules>
   </component>
 </project>

@@ -1,9 +1,9 @@
 package com.ansen.jnitest;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
         JNITest jniTest=new JNITest();
 
-        TextView tvResult= (TextView) findViewById(R.id.tv_result);
+        TextView tvResult= findViewById(R.id.tv_result);
         tvResult.setText("运行结果:"+jniTest.plus(100,10));
     }
 
